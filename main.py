@@ -10,3 +10,13 @@ def read_data():
             table.append(line)
     print(table)
 read_data()
+'''
+def create_data():
+def update_data():
+def delete_data():
+Potential features + more
+'''
+
+window = tkinter.Tk()
+window.title("Soccer Stats")
+window.minsize(800, 400)
