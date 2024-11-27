@@ -20,3 +20,4 @@ Potential features + more
 window = tkinter.Tk()
 window.title("Soccer Stats")
 window.minsize(800, 400)
+window.mainloop()
