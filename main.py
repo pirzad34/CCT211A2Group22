@@ -16,7 +16,7 @@ def display_data():
     display_text = ""
     for i in statistics:
         display_text += "First Name: " + i[0] + ", Last Name: " + i[1] + ", G/A: " + str(i[2]) + ", Games Won: " + str(i[3]) + "\n"
-        window.players_label.config(text=display_text)
+    window.players_label.config(text=display_text)
 
 def add_to_csv(stats):
     with open("soccer_stats.csv", mode='a', newline='\n') as file:
